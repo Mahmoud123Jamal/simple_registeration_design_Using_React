@@ -1,0 +1,69 @@
+
+body{
+  background-image: radial-gradient(azure , gray);
+}
+#header{
+  height: 150px;
+  width :100%;
+  background-color: bisque;
+  text-align: center;
+  color: red;
+}
+img{
+  width: 95%;
+  height: 150px;
+  position: relative;
+  top: 150px;
+  margin: 12px;
+  padding: 12px;
+  
+}
+img:hover{
+  background-image: linear-gradient(red,green,black);
+  cursor:crosshair;
+  height: 180px;
+}
+#s{
+     position:absolute;
+  top:300px;
+  left: 500px;
+  margin: 12px;
+  padding: 12px; 
+}
+
+
+.inputtext:hover{
+  background-color:azure;
+  color: olivedrab;
+  font-family: cursive;
+  
+}
+.inputpass:hover{
+  background-color:azure;
+    font-family: cursive;
+}
+#button{
+width: 60px;
+  background-color: orange;
+  color:brown;
+}
+#button:active{
+  background-color: azure;
+}
+.signup{
+  background-image: linear-gradient(to bottom, white,azure);
+  position: absolute;
+  top: 400px;
+  left: 380px;
+  padding: 12px;
+  margin: 12px;
+  display:grid;
+width: 550px; 
+  height: 550px;
+  text-align: left;
+  color:black;
+ border-style: outset;
+  border-radius: 12px;
+  border-collapse: collapse;
+  border-color:brown; 
+}
